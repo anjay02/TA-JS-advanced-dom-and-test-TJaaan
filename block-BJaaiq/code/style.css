@@ -1,6 +1,11 @@
-.root_element blockquote {
-    font-size: 60px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
   }
-  .root_element cite {
-    font-size: 40px;
+  #quotes-container {
+    padding: 20px;
+  }
+  .quote {
+    margin-bottom: 20px;
   }
