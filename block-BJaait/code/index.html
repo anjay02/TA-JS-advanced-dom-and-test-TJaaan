@@ -4,28 +4,21 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <div class="container">
-      <h1>Drag and drop html5</h1>
-      <div class="input-container">
-        <input
-          type="text"
-          name="item"
-          id="item"
-          placeholder="Add items in your list"
-        />
-        <button class="btn">+</button>
-      </div>
-      <div class="box-container">
-        <div class="box" draggable="true">Javascript</div>
-        <div class="box" draggable="true">SCSS</div>
-        <div class="box" draggable="true">HTMl5</div>
-        <div class="box" draggable="true">React</div>
-        <div class="box" draggable="true">Follow Me</div>
-      </div>
-    </div>
+    <body>
+        <h1>DRAG AND DROP HTML5</h1>
+        <div class="adder">
+           <input type="text" class="input" placeholder="Add items in your list"/>
+           <span class="add">+</span>
+        </div>
+        <ul>
+           <li class="draggable" draggable="true">JavaScript</li>
+           <li class="draggable" draggable="true">SCSS</li>
+           <li class="draggable" draggable="true">HTML5</li>
+           <li class="draggable" draggable="true">Awesome DnD</li>
+           <li class="draggable" draggable="true">Follow me</li>
+        </ul>
     <script src="index.js"></script>
   </body>
 </html>
