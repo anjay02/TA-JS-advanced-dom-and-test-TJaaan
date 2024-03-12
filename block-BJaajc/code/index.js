@@ -1,24 +1,31 @@
-// index.js
+// function getFullName(firstName,lastName){
+   
+// }
+// getFullName();
 
-function getFullName(firstName, lastName) {
-  return `${firstName} ${lastName}`;
+
+// function isPalindrome(value){
+
+// }
+
+
+function getCircumfrence(r){
+  const pie=3.14
+  c= 2*pie*r;
+   return `circumfrence of circle is ${c}`
 }
+getCircumfrence();
 
-function isPalindrome(str) {
-  const reversed = str.split('').reverse().join('');
-  return str === reversed;
+
+
+function getArea(r){
+  const pie=3.14;
+  area=pie*r*r;
+  return `area of circle is ${area}`
+
 }
+getArea();
 
-function getCircumference(radius) {
-  if (typeof radius !== 'number' || radius <= 0) return 'Invalid radius';
-  const circumference = 2 * Math.PI * radius;
-  return `The circumference is ${circumference}`;
-}
 
-function getArea(radius) {
-  if (typeof radius !== 'number' || radius <= 0) return 'Invalid radius';
-  const area = Math.PI * radius * radius;
-  return `The area is ${area}`;
-}
-
-module.exports = { getFullName, isPalindrome, getCircumference, getArea };
+module.exports=getCircumfrence;
+module.exports=getArea;
