@@ -4,7 +4,7 @@ const { getFullName, isPalindrome, getCircumference, getArea } = require('./inde
 
 describe('getFullName', () => {
   test('Positive: Properly concatenates first and last name', () => {
-    expect(getFullName('John', 'Snow')).toBe('John Snow');
+    expect(getFullName('John', 'Doe')).toBe('John Doe');
   });
 
   test('Positive: Works with middle name', () => {
